@@ -20,12 +20,48 @@
   color: #333;
 }
 
-.top-message, {
-  font-size: 13px;
-  line-height: 18px;
+.top-message {
   margin: 33px;
 }
 
+h1, h2{
+  margin-top: 17.4px;
+  margin-bottom: 17.4px;
+}
+
 body {
+  margin: 33px;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+th {
+  padding-bottom: 5px;
+}
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.field {
+  padding-bottom: 10px;
+}
+
+textarea, input {
+  padding: 2px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.title, .body {
+  margin: 33px;
+}
+
+.flash {
+  color: green;
   margin: 33px;
 }
